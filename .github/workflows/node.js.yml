@@ -3,11 +3,7 @@
 
 name: Node.js CI
 
-on:
-  push:
-    branches: [master, dev/*, fix-test]
-  pull_request:
-    branches: [master, dev/*, fix-test] 
+on: [push, pull_request]
 
 jobs:
   build:
